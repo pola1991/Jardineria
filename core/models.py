@@ -15,8 +15,8 @@ class Producto(models.Model):
 
 """
 
-hhhhhhhggggrrr
-class Persona(models.Model):h
+aa
+class Persona(models.Model):
     rut_persona = models.IntegerField(primary_key=True, verbose_name='rut_persona')
     dv_persona = models.IntegerField(verbose_name='dv_persona')
     nombre_completo_persona = models.CharField(max_length=50,verbose_name='nombre_completo_persona')
