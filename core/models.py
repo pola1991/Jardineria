@@ -16,7 +16,7 @@ class Producto(models.Model):
 """
 hola
 
-hhhhhhh
+hhhhhhhgggg
 class Persona(models.Model):h
     rut_persona = models.IntegerField(primary_key=True, verbose_name='rut_persona')
     dv_persona = models.IntegerField(verbose_name='dv_persona')
