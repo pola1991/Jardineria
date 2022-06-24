@@ -4,7 +4,7 @@ from django.db import models
 from django.utils import timezone
 
 # Create your models here.
-
+"""
 class Producto(models.Model):
     id_producto = models.IntegerField(primary_key=True, verbose_name='id_producto')
     marca_producto = comuna_persona = models.CharField(max_length=30,verbose_name='marca_producto')
@@ -12,8 +12,9 @@ class Producto(models.Model):
     cantidad_producto_existente = models.IntegerField()
     imagen = models.ImageField(upload_to="productos", null=True)
 
-
 """
+"""
+hola
 
 aa
 class Persona(models.Model):
